@@ -89,7 +89,23 @@ After creating agents, the next step is to create users. Users, in this context,
 
 ![image](https://github.com/jamstylr/post-install-config/assets/159660523/cd5b130c-4201-4279-9c49-610b95efe22c)
 ![image](https://github.com/jamstylr/post-install-config/assets/159660523/4675266b-981a-4be0-a3fd-47dad5da9e32)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/928dad08-26b1-41fb-a8af-2863d1d944b0)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/0060c85b-76ed-460b-8cb9-2b4e346ed527)
 <p>
 Service Level Agreements (SLAs) outline the timeframe for administrators to close tickets, and they can also be designated for specific departments or help topics to ensure efficient handling. To create a new SLA, switch to the Admin Panel, go to Manage->SLA->Add New SLA Plan. For this tutorial we will create 3 new SLAs. The first SLA will be for the most severe tickets and will be ideal for addressing business critical issues. Give this first SLA the name SEV-A with a grace period of 1 hour and a 24/7 schedule. The second SLA will be ideal for resolving critical issues affecting employees, such as troubleshooting or PC problems. Give the second SLA the name SEV-B with a grace period of 4 hours and a 24/7 schedule. The third SLA will be named SEV-C. SEV-C is ideal for less critical issues or routine requests. SEV-C is less urgent compared to SEV-A and SEV-B, so we will give it a longer response time and tickets should only be addressed during business hours. SEV-C will need an 8 hour grace period and a business hours schedule.
+</p>
+<br />
+
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/1d0ed305-ddb1-4c5b-b5de-6d310e1fb70c)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/3eb9506e-2d6c-4ef0-bfb7-13c3cd4e2cba)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/6012f0a4-ca5e-4d1f-80d0-73fc17691c49)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/c0d223eb-7011-43d7-affd-f1da474afc79)
+<p>
+For the last part of this section, we will create a new Help Topic. Help Topics make it easier for users to enter their ticket details and choose the right department by guiding them through the process and selecting an appropriate category that describes their problem, so that agents understand what the ticket is about. To create new Help Topics, from the Amin Panel go to Manage->Help Topics->Add New Help Topic. For this tutorial we will create a new Help Topic named “Business Critical Outage”. After naming this Help Topic, go to the “New Ticket Options” tab and change the SLA Plan to SEV-A, because of the severity of a business critical outage issue and the need for urgent response. Click “Add Topic” to finish creating this Help Topic. Some examples of other Help Topics that you can create are Personal Computer Issues, Equipment Refresh, and Password Reset.
+</p>
+<br />
+
+<p>
+Now that we've implemented the configurations, osTicket is a fully functioning ticketing system, enabling seamless ticket creation and management in real-world situations. With our osTicket setup finalized, we can now move forward with testing ticket submissions for users and assessing ticket resolution procedures for employees.
 </p>
 <br />
