@@ -66,7 +66,7 @@ Next we will set up a new team. The Teams section in osTicket organizes agents f
 
 ![image](https://github.com/jamstylr/post-install-config/assets/159660523/fc9ddd36-d1d2-4995-aa73-511c2db353ae)
 <p>
-To allow anyone to create tickets, from the Admin Panel go to Settings->User Settings. Under Authentication Settings, make sure that the “Registration Required” box in unchecked.
+To allow anyone to create tickets anonymously, from the Admin Panel go to Settings->User Settings. Under Authentication Settings, make sure that the “Registration Required” box in unchecked. By unchecking this box, users can create anonymous tickets when necessary.
 </p>
 <br />
 
@@ -87,7 +87,8 @@ After creating agents, the next step is to create users. Users, in this context,
 </p>
 <br />
 
-
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/cd5b130c-4201-4279-9c49-610b95efe22c)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/4675266b-981a-4be0-a3fd-47dad5da9e32)
 <p>
 Service Level Agreements (SLAs) outline the timeframe for administrators to close tickets, and they can also be designated for specific departments or help topics to ensure efficient handling. To create a new SLA, switch to the Admin Panel, go to Manage->SLA->Add New SLA Plan. For this tutorial we will create 3 new SLAs. The first SLA will be for the most severe tickets and will be ideal for addressing business critical issues. Give this first SLA the name SEV-A with a grace period of 1 hour and a 24/7 schedule. The second SLA will be ideal for resolving critical issues affecting employees, such as troubleshooting or PC problems. Give the second SLA the name SEV-B with a grace period of 4 hours and a 24/7 schedule. The third SLA will be named SEV-C. SEV-C is ideal for less critical issues or routine requests. SEV-C is less urgent compared to SEV-A and SEV-B, so we will give it a longer response time and tickets should only be addressed during business hours. SEV-C will need an 8 hour grace period and a business hours schedule.
 </p>
