@@ -43,10 +43,35 @@ In the top right corner of the osTicket interface, you'll find options to switch
 </p>
 <br />
 
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/8573d4fa-a215-410b-a65b-c741937a7f26)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/641b475c-b28f-4d9e-9811-5f36fb8b342d)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/b9eed2e5-10ab-4815-98fc-577f81204f65)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Roles specify the permissions assigned to agents within the departments they are granted access to. First we will create a new role called Supreme Admin that will be granted all permissions. To do this, you will need to be in the Admin Panel. Then go to Agents->Roles->Add New Role. Name the Supreme Admin, and then click on the “Permissions” tab. To grant this role all permissions, check all the boxes under the Tickets, Tasks, and Knowledgebase tabs. Finally click “Add Role” and save changes.
 </p>
+<br />
+
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/8c499b25-4998-401c-91ad-396fb1042df4)
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Departments help organize and solve tickets based on their importance or instructions, and each agent is assigned to a specific department based on their role within the Help Desk. To create a new department for System Administrators, navigate to the Admin Panel and select Agents -> Departments -> Add New Department. Name the department “System Administrators”, keep other options as default, and click "Create Dept" to finalize.
+</p>
+<br />
+
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/18f81d8e-227c-444a-bf15-3f8fcb0607eb)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/a331752b-98de-4b2c-9ee0-3a1f0199734f)
+<p>
+Next we will set up a new team. The Teams section in osTicket organizes agents from different departments to handle specific issues and override parameter rules, allowing for specialized teams like an "A team" with top technicians from various departments. By default, osTicket creates a Level I Support Team, so we will create a Level II Support Team. From the Admin Panel go to Agents->Teams->Add New. Name it “Level II Support”, then click on the Members tab to add new members (I added myself). Now click Create Team.
+</p>
+<br />
+
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/fc9ddd36-d1d2-4995-aa73-511c2db353ae)
+<p>
+To allow anyone to create tickets, from the Admin Panel go to Settings->User Settings. Under Authentication Settings, make sure that the “Registration Required” box in unchecked.
+</p>
+<br />
+
+
+<p>
+Moving forward, we'll create new agents representing the employees tasked with resolving tickets. To create new agents, from the Admin Panel go to Agents->Add New Agent. For this tutorial, we will create two new agents Jane Doe and John Doe. We will give them basic usernames, emails, and passwords. When setting their passwords, uncheck the boxes next to "Send the agent a password reset email" and "Require password change at next login”. In the Access tab, you have the option to assign an agent to a department and role, while also being able to assign them to a specific team in the Teams tab. Additionally, within the Permissions tab, you have the ability to configure permissions. For the purposes of this tutorial, we will set Jane Doe with the role of Supreme Admin.
 </p>
 <br />
