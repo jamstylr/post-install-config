@@ -27,19 +27,19 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
+
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/33bb2a50-d955-4da7-aee2-f09e473d2922)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After successfully installing osTicket, you're ready to configure it as a ticketing system. To begin, open your web browser and navigate to http://localhost/osTicket/scp/login.php. Here, you can log in to your Help Desk portal using the credentials you created during the installation process. Once logged in, you'll gain access to various ticket management features and administrative settings.
 </p>
 <br />
 
+
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/00ebfbea-d2b2-497a-939e-9c056f043f03)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the top right corner of the osTicket interface, you'll find options to switch between the Admin Panel and Agent Panel. Simply click on the displayed panel name, either “Admin Panel” or “Agent Panel”, to switch between them. If you see “Agent Panel”, it indicates that you're currently accessing osTicket as an administrator. Conversely, if “Admin Panel” is displayed, you're in the Agent Panel interface. Each panel offers distinct functionalities tailored to administrative tasks and agent operations.
 </p>
 <br />
 
