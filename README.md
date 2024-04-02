@@ -72,10 +72,12 @@ To allow anyone to create tickets anonymously, from the Admin Panel go to Settin
 
 ![image](https://github.com/jamstylr/post-install-config/assets/159660523/3810b28d-45c0-4abb-9cd5-61c1ab7a80b7)
 ![image](https://github.com/jamstylr/post-install-config/assets/159660523/a3c5193e-3dbb-4c31-86fa-3b471fdfb8c0)
-![image](https://github.com/jamstylr/post-install-config/assets/159660523/d6fb6345-5331-47d6-8e64-7f83d65fbd91)
-![image](https://github.com/jamstylr/post-install-config/assets/159660523/40a1bb76-e654-4161-a352-adee477f66ce)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/8cc50d5e-6d49-4268-b0bd-3161c8712369)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/80a277a3-2d43-4d1d-9ffc-a5d4d6a825b5)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/6c5d1ba2-03a1-4ee3-9921-e5003cbb03ec)
+![image](https://github.com/jamstylr/post-install-config/assets/159660523/3efdee5a-1d3d-4713-9843-9fc3552448f3)
 <p>
-Moving forward, we'll create new agents representing the employees tasked with resolving tickets. To create new agents, from the Admin Panel go to Agents->Add New Agent. For this tutorial, we will create two new agents Jane Doe and John Doe. We will give them basic usernames, emails, and passwords. When setting their passwords, uncheck the boxes next to "Send the agent a password reset email" and "Require password change at next login”. In the Access tab, you have the option to assign an agent to a department and role, while also being able to assign them to a specific team in the Teams tab. Additionally, within the Permissions tab, you have the ability to configure permissions. For the purposes of this tutorial, we will set Jane Doe with the role of Supreme Admin.
+Moving forward, we'll create new agents representing the employees responsible for resolving tickets. To create new agents, navigate to the Admin Panel select Agents->Add New Agent. In this tutorial, we'll create two new agents: Jane Doe and John Doe.  We will give them basic usernames, emails, and passwords. When setting their passwords, uncheck the boxes next to "Send the agent a password reset email" and "Require password change at next login”. In the Access tab, you have the option to assign an agent to a department and role. Ensure that under the Extended Departments section, "Support" is selected for Jane Doe, and assign the role of "Supreme_Admin" accordingly. Also you are able to assign Agents to a specific team in the Teams tab.  Additionally, within the Permissions tab, you have the ability to configure permissions. In this tutorial, we will set Jane Doe with the role of Supreme Admin.
 </p>
 <br />
 
